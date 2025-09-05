@@ -18,22 +18,22 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("25340485", ""))
+API_HASH = getenv("aafe46a59b185f0506b8ad96657f85a3")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7815456135:AAEsfdZTAg_ONjStF9baiM2k3I6ACOet8G4")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://rj5706603:O95nvJYxapyDHfkw@cluster0.fzmckei.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "3600"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "400"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("-1002960255015", ""))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("Spotify music")
 
-OWNER_ID = int(getenv("OWNER_ID", None))
+OWNER_ID = int(getenv("8335964059", None))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
@@ -73,11 +73,11 @@ SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
-VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "2"))
+VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "100"))
 
-SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "50"))
+SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "100"))
 
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "50"))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "100"))
 
 CLEANMODE_DELETE_MINS = int(getenv("CLEANMODE_MINS", "7"))
 
@@ -89,7 +89,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 COOKIES = getenv("COOKIES", None)
 # https://batbin.me
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("BQE1hZwAaT7JFsrVrYLK5b3Ss2_mpCPUtT9CoPOsoq7lCCejGEUtIjJR53sm3JgnoBgwNlj_S8miLHXDAbeHLA7KEisgOqlfX0VKrlSZzCF_nafte0aUZrh3n4kIqT9TsuW9mJm78utbV5BVPAxrN_-v_X_vLyC7m2nkr6qAFrGB0lqPQa0h2RmADlmyDmH8BuYLDl2PxoMzdedc1h2Rb_OZpoDsgg3OctHd6-NLwQR2LAj4rPJeWNBwkf_wELe45tkPFREV70I6zkJfeZoBAJ7BOOh_xd54Z96MgsMu22H8BerZNVW8OM2qeLXn1-9Uo5g65mygmCf6zecvAQxzH4feaMVvqQAAAAHw3LebAA", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
